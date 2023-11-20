@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+header>h2{
+    font-size: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    
+}
+
+@media only screen and (max-width: 450px){
+
+    header{
+        flex-direction: column;
+        border: 1px solid red;
+        padding: 0 2px;
+    }
+
+    header>h2{
+        font-size: 2rem;
+    }
+
+    nav{
+        font-size: 1.7rem;
+    }
+
+}
